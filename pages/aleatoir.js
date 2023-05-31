@@ -11,19 +11,5 @@ exports.AleatoirPage = class AleatoirPage {
 
     async clickOnAleatoir() {
         await this.aleatoir_buttom.first().click();
-    }
-    async getCurrentURL () {
-        const mmm=window.location.href
-        console.log(mmm)
-        return mmm
-      }
-
-    async checkUrlChanged() {
-        const title = getCurrentURL()
-        console.log(title);
-       // if title.e('https://bouletcorp.com/');
-             
-    }
-
-    
+    }         
 }
